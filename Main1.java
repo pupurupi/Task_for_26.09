@@ -10,7 +10,7 @@ class ListNode {
     }
 }
 
-public class Main {
+public class Main1 {
     public static void main(String[] args) {
         
         // Создаем список: 10 -> 20 -> 30 -> 40
@@ -55,4 +55,5 @@ public class Main {
         
         System.out.println("Сумма элементов: " + sum);
     }
+
 }
