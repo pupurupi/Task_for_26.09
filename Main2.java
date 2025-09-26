@@ -1,3 +1,4 @@
+//Создать список из нескольких чисел. Написать функцию, которая проверяет, есть ли заданное число в списке.
 class ListNode {
     int data;
     ListNode next;
@@ -9,7 +10,7 @@ class ListNode {
     }
 }
 
-public class Main {
+public class Main2 {
     // Функция для поиска элемента в списке
     public static boolean findNumber(ListNode head, int target) {
         ListNode current = head;  // начинаем с начала списка
@@ -54,4 +55,5 @@ public class Main {
         System.out.println("Поиск числа 3: " + (findNumber(first, 3) ? "Найдено" : "Не найдено"));
         System.out.println("Поиск числа 1: " + (findNumber(first, 1) ? "Найдено" : "Не найдено"));
     }
+
 }
